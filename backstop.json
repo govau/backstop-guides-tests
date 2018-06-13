@@ -182,7 +182,7 @@
       "requireSameDimensions": true
     },
     {
-      "label": "discovery",
+      "label": "discovery stage",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/discovery-stage/",
       "referenceUrl": "",
@@ -201,7 +201,26 @@
       "requireSameDimensions": true
     },
     {
-      "label": "beta",
+      "label": "live stage",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/live-stage/",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "beta stage",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/beta-stage/",
       "referenceUrl": "",
@@ -220,7 +239,26 @@
       "requireSameDimensions": true
     },
     {
-      "label": "sddp",
+      "label": "own the whole user experience",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/whole-user-experience/",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "service design and delivery process HOMEPAGE",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/",
       "referenceUrl": "",
@@ -239,7 +277,7 @@
       "requireSameDimensions": true
     },
     {
-      "label": "team",
+      "label": "starting a team",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/starting-team/",
       "referenceUrl": "",
