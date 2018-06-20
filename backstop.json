@@ -11,726 +11,1504 @@
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "Digital Guides homepage",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au",
+      "label": "/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/",
       "referenceUrl": "https://guides.service.gov.au/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "Digital Guides homepage-open govAU header",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au",
-      "referenceUrl": "https://guides.service.gov.au/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": ".headergovau__button",
-      "postInteractionWait": 500,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "sitemap",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/sitemap/",
-      "referenceUrl": "https://guides.service.gov.au/sitemap/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "privacy",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/privacy-statement/",
-      "referenceUrl": "https://guides.service.gov.au/privacy-statement/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "DSS Homepage",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "label": "/digital-service-standard/",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/",
       "referenceUrl": "https://guides.service.gov.au/digital-service-standard/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "DSS-2",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/2-multidisciplinary-team/",
-      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/2-multidisciplinary-team/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "DSS-7",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/7-open-standards-and-common-platforms/",
-      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/7-open-standards-and-common-platforms/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "DSS-9",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/9-make-it-accessible/",
-      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/9-make-it-accessible/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "DSS-11",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/11-measure-performance/",
-      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/11-measure-performance/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "DSS-13",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/13-encourage-use-of-the-digital-service/",
-      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/13-encourage-use-of-the-digital-service/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "topics",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "label": "/topics/",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/",
       "referenceUrl": "https://guides.service.gov.au/topics/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "getting-started-sddp",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/get-started/",
-      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/get-started/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "discovery stage",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/discovery-stage/",
-      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/discovery-stage/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "live stage",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/live-stage/",
-      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/live-stage/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "beta stage",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/beta-stage/",
-      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/beta-stage/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "own the whole user experience",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/whole-user-experience/",
-      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/whole-user-experience/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "service design and delivery process HOMEPAGE",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/",
-      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "starting a team",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/starting-team/",
-      "referenceUrl": "https://guides.service.gov.au/topics/starting-team/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "user-research",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/",
-      "referenceUrl": "https://guides.service.gov.au/topics/user-research/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "understanding-user-needs",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/identifying-users-needs/",
-      "referenceUrl": "https://guides.service.gov.au/topics/user-research/identifying-users-needs/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "understanding-diversity",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/understanding-diversity/",
-      "referenceUrl": "https://guides.service.gov.au/topics/user-research/understanding-diversity/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "interviewing-users",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/interviewing-users/",
-      "referenceUrl": "https://guides.service.gov.au/topics/user-research/interviewing-users/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "how user research changes",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/research-stages/",
-      "referenceUrl": "https://guides.service.gov.au/topics/user-research/research-stages/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "getting-support-for-research",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/getting-support/",
-      "referenceUrl": "https://guides.service.gov.au/topics/user-research/getting-support/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "using-existing-research-data",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/planning-user-research/using-existing-research-data/",
-      "referenceUrl": "https://guides.service.gov.au/topics/user-research/planning-user-research/using-existing-research-data/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
-      "label": "content strategy homepage",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "label": "/content-strategy/",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/",
       "referenceUrl": "https://guides.service.gov.au/content-strategy/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "understand your ecosystem",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "label": "/privacy-statement/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/privacy-statement/",
+      "referenceUrl": "https://guides.service.gov.au/privacy-statement/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/1-understand-user-needs/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/1-understand-user-needs/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/1-understand-user-needs/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/2-multidisciplinary-team/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/2-multidisciplinary-team/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/2-multidisciplinary-team/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/3-agile-and-user-centred/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/3-agile-and-user-centred/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/3-agile-and-user-centred/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/4-tools-and-systems/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/4-tools-and-systems/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/4-tools-and-systems/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/5-make-it-secure/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/5-make-it-secure/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/5-make-it-secure/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/6-consistent-and-responsive/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/6-consistent-and-responsive/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/6-consistent-and-responsive/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/7-open-standards-and-common-platforms/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/7-open-standards-and-common-platforms/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/7-open-standards-and-common-platforms/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/8-make-source-code-open/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/8-make-source-code-open/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/8-make-source-code-open/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/9-make-it-accessible/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/9-make-it-accessible/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/9-make-it-accessible/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/10-test-the-service/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/10-test-the-service/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/10-test-the-service/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/11-measure-performance/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/11-measure-performance/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/11-measure-performance/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/12-non-digital-experience/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/12-non-digital-experience/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/12-non-digital-experience/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/digital-service-standard/13-encourage-use-of-the-digital-service/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/13-encourage-use-of-the-digital-service/",
+      "referenceUrl": "https://guides.service.gov.au/digital-service-standard/13-encourage-use-of-the-digital-service/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/service-design-delivery-process/get-started/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/get-started/",
+      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/get-started/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/service-design-delivery-process/discovery-stage/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/discovery-stage/",
+      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/discovery-stage/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/service-design-delivery-process/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/",
+      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/starting-team/roles/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/starting-team/roles/",
+      "referenceUrl": "https://guides.service.gov.au/topics/starting-team/roles/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/starting-team/multidisciplinary-team/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/starting-team/multidisciplinary-team/",
+      "referenceUrl": "https://guides.service.gov.au/topics/starting-team/multidisciplinary-team/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/starting-team/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/starting-team/",
+      "referenceUrl": "https://guides.service.gov.au/topics/starting-team/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/identifying-users-needs/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/identifying-users-needs/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/identifying-users-needs/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/getting-support/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/getting-support/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/getting-support/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/understand-channel-ecosystem/",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/understand-channel-ecosystem/",
       "referenceUrl": "https://guides.service.gov.au/content-strategy/understand-channel-ecosystem/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "show the content ecosystem",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/understand-channel-ecosystem/show-content-ecosystem/",
-      "referenceUrl": "https://guides.service.gov.au/content-strategy/understand-channel-ecosystem/show-content-ecosystem/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
+      "label": "/content-strategy/start-content-strategy/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/start-content-strategy/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/start-content-strategy/",
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "set goals measure kpis",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-goals-measure-success/goals-objectives-kpis/",
-      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-goals-measure-success/goals-objectives-kpis/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
+      "label": "/content-strategy/identify-business-needs/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/identify-business-needs/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/identify-business-needs/",
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "apply a content governance model",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-up-governance/apply-content-governance-model/",
-      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-up-governance/apply-content-governance-model/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
+      "label": "/content-strategy/define-user-content-needs/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/define-user-content-needs/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/define-user-content-needs/",
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "plan your IA",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/information-architecture/plan-ia/",
-      "referenceUrl": "https://guides.service.gov.au/content-strategy/information-architecture/plan-ia/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
+      "label": "/content-strategy/audit-content/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/audit-content/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/audit-content/",
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "card sorting",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/information-architecture/define-ia/card-sorting/",
-      "referenceUrl": "https://guides.service.gov.au/content-strategy/information-architecture/define-ia/card-sorting/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
+      "label": "/content-strategy/set-goals-measure-success/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-goals-measure-success/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-goals-measure-success/",
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "CMS homepage",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "label": "/content-strategy/set-up-governance/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-up-governance/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-up-governance/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/remove-content/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/remove-content/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/remove-content/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/information-architecture/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/information-architecture/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/information-architecture/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/search-engine-optimisation/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/search-engine-optimisation/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/search-engine-optimisation/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/content-management-system/",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/content-management-system/",
       "referenceUrl": "https://guides.service.gov.au/content-strategy/content-management-system/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "Configure your CMS",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/content-management-system/configure-your-cms/",
-      "referenceUrl": "https://guides.service.gov.au/content-strategy/content-management-system/configure-your-cms/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
+      "label": "/content-strategy/manage-content-requests/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/",
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "improve onpage SEO",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "label": "/sitemap/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/sitemap/",
+      "referenceUrl": "https://guides.service.gov.au/sitemap/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/service-design-delivery-process/alpha-stage/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/alpha-stage/",
+      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/alpha-stage/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/service-design-delivery-process/beta-stage/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/beta-stage/",
+      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/beta-stage/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/service-design-delivery-process/live-stage/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/live-stage/",
+      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/live-stage/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/service-design-delivery-process/whole-user-experience/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/whole-user-experience/",
+      "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/whole-user-experience/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/research-stages/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/research-stages/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/research-stages/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/analysing-user-research/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/analysing-user-research/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/analysing-user-research/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/define-user-content-needs/create-actionable-artefacts/journey-maps/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/define-user-content-needs/create-actionable-artefacts/journey-maps/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/define-user-content-needs/create-actionable-artefacts/journey-maps/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/starting-team/digital-capability-team/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/starting-team/digital-capability-team/",
+      "referenceUrl": "https://guides.service.gov.au/topics/starting-team/digital-capability-team/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/interviewing-users/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/interviewing-users/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/interviewing-users/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/find-user-research-participants/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/find-user-research-participants/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/find-user-research-participants/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/planning-user-research/using-existing-research-data/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/planning-user-research/using-existing-research-data/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/planning-user-research/using-existing-research-data/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/planning-user-research/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/planning-user-research/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/planning-user-research/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/team-research/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/team-research/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/team-research/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/consent-forms/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/consent-forms/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/consent-forms/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/paying-incentives/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/paying-incentives/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/paying-incentives/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/topics/user-research/understanding-diversity/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/user-research/understanding-diversity/",
+      "referenceUrl": "https://guides.service.gov.au/topics/user-research/understanding-diversity/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/urgent-content-requests/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/urgent-content-requests/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/urgent-content-requests/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/understand-channel-ecosystem/content-discovery/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/understand-channel-ecosystem/content-discovery/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/understand-channel-ecosystem/content-discovery/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/understand-channel-ecosystem/show-content-ecosystem/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/understand-channel-ecosystem/show-content-ecosystem/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/understand-channel-ecosystem/show-content-ecosystem/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/start-content-strategy/show-problem-evidence/content-strategy-template/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/start-content-strategy/show-problem-evidence/content-strategy-template/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/start-content-strategy/show-problem-evidence/content-strategy-template/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/start-content-strategy/senior-executive-buy-in/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/start-content-strategy/senior-executive-buy-in/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/start-content-strategy/senior-executive-buy-in/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/start-content-strategy/show-problem-evidence/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/start-content-strategy/show-problem-evidence/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/start-content-strategy/show-problem-evidence/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/start-content-strategy/tips-pitching-case/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/start-content-strategy/tips-pitching-case/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/start-content-strategy/tips-pitching-case/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/identify-business-needs/what-business-needs/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/identify-business-needs/what-business-needs/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/identify-business-needs/what-business-needs/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/identify-business-needs/who-to-talk/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/identify-business-needs/who-to-talk/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/identify-business-needs/who-to-talk/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/identify-business-needs/getting-agreement/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/identify-business-needs/getting-agreement/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/identify-business-needs/getting-agreement/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/define-user-content-needs/create-actionable-artefacts/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/define-user-content-needs/create-actionable-artefacts/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/define-user-content-needs/create-actionable-artefacts/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/audit-content/prove-value/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/audit-content/prove-value/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/audit-content/prove-value/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/audit-content/plan-your-audit/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/audit-content/plan-your-audit/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/audit-content/plan-your-audit/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/audit-content/engage-stakeholders/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/audit-content/engage-stakeholders/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/audit-content/engage-stakeholders/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/audit-content/conduct-audit/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/audit-content/conduct-audit/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/audit-content/conduct-audit/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/audit-content/analyse-evaluate/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/audit-content/analyse-evaluate/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/audit-content/analyse-evaluate/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/audit-content/action-audit/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/audit-content/action-audit/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/audit-content/action-audit/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/set-goals-measure-success/goals-objectives-kpis/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-goals-measure-success/goals-objectives-kpis/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-goals-measure-success/goals-objectives-kpis/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/set-goals-measure-success/measure-success/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-goals-measure-success/measure-success/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-goals-measure-success/measure-success/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/set-goals-measure-success/report-findings/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-goals-measure-success/report-findings/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-goals-measure-success/report-findings/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/set-up-governance/improve-content-maturity/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-up-governance/improve-content-maturity/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-up-governance/improve-content-maturity/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/set-up-governance/apply-content-governance-model/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-up-governance/apply-content-governance-model/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-up-governance/apply-content-governance-model/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/set-up-governance/accountability-ownership/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-up-governance/accountability-ownership/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-up-governance/accountability-ownership/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/set-up-governance/endorse-standards-guidelines/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-up-governance/endorse-standards-guidelines/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-up-governance/endorse-standards-guidelines/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/remove-content/get-approval-remove/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/remove-content/get-approval-remove/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/remove-content/get-approval-remove/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/remove-content/create-removal-plan/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/remove-content/create-removal-plan/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/remove-content/create-removal-plan/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/remove-content/archive-record-content/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/remove-content/archive-record-content/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/remove-content/archive-record-content/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/remove-content/remove-content-from-web/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/remove-content/remove-content-from-web/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/remove-content/remove-content-from-web/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/remove-content/decommission-website/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/remove-content/decommission-website/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/remove-content/decommission-website/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/information-architecture/review-ia/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/information-architecture/review-ia/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/information-architecture/review-ia/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/information-architecture/plan-ia/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/information-architecture/plan-ia/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/information-architecture/plan-ia/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/information-architecture/define-ia/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/information-architecture/define-ia/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/information-architecture/define-ia/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/information-architecture/test-ia/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/information-architecture/test-ia/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/information-architecture/test-ia/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/information-architecture/map-ia/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/information-architecture/map-ia/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/information-architecture/map-ia/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/information-architecture/ia-checklist/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/information-architecture/ia-checklist/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/information-architecture/ia-checklist/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/search-engine-optimisation/seo-terms/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/search-engine-optimisation/seo-terms/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/search-engine-optimisation/seo-terms/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/search-engine-optimisation/on-page-seo/",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/search-engine-optimisation/on-page-seo/",
       "referenceUrl": "https://guides.service.gov.au/content-strategy/search-engine-optimisation/on-page-seo/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "content sign off brief template",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/sign-off-content/sign-off-template/",
-      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/sign-off-content/sign-off-template/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
+      "label": "/content-strategy/search-engine-optimisation/off-page-seo/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/search-engine-optimisation/off-page-seo/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/search-engine-optimisation/off-page-seo/",
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "pair writing",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "label": "/content-strategy/content-management-system/cms-requirements/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/content-management-system/cms-requirements/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/content-management-system/cms-requirements/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/content-management-system/configure-your-cms/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/content-management-system/configure-your-cms/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/content-management-system/configure-your-cms/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/content-management-system/cms-requirements-checklist/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/content-management-system/cms-requirements-checklist/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/content-management-system/cms-requirements-checklist/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/define-user-content-needs/create-actionable-artefacts/user-job-stories/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/define-user-content-needs/create-actionable-artefacts/user-job-stories/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/define-user-content-needs/create-actionable-artefacts/user-job-stories/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/identify-business-needs/who-to-talk/business-alignment-workshop/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/identify-business-needs/who-to-talk/business-alignment-workshop/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/identify-business-needs/who-to-talk/business-alignment-workshop/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/define-user-content-needs/create-actionable-artefacts/user-profiles/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/define-user-content-needs/create-actionable-artefacts/user-profiles/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/define-user-content-needs/create-actionable-artefacts/user-profiles/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/define-user-content-needs/create-actionable-artefacts/top-tasks/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/define-user-content-needs/create-actionable-artefacts/top-tasks/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/define-user-content-needs/create-actionable-artefacts/top-tasks/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/audit-content/analyse-evaluate/content-evaluation-checklist/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/audit-content/analyse-evaluate/content-evaluation-checklist/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/audit-content/analyse-evaluate/content-evaluation-checklist/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/set-goals-measure-success/glossary-measurement-definitions/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-goals-measure-success/glossary-measurement-definitions/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-goals-measure-success/glossary-measurement-definitions/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/set-up-governance/accountability-ownership/design-workflow/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-up-governance/accountability-ownership/design-workflow/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-up-governance/accountability-ownership/design-workflow/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/set-up-governance/accountability-ownership/identify-tasks-skills/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-up-governance/accountability-ownership/identify-tasks-skills/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-up-governance/accountability-ownership/identify-tasks-skills/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/set-up-governance/endorse-standards-guidelines/guidelines-standards-checklist/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/set-up-governance/endorse-standards-guidelines/guidelines-standards-checklist/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/set-up-governance/endorse-standards-guidelines/guidelines-standards-checklist/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/plan-content/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/plan-content/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/plan-content/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/create-content/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/create-content/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/create-content/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/check-revise-content/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/check-revise-content/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/check-revise-content/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/sign-off-content/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/sign-off-content/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/sign-off-content/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/publish-content/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/publish-content/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/publish-content/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/maintain-improve-content/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/maintain-improve-content/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/maintain-improve-content/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/information-architecture/define-ia/card-sorting/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/information-architecture/define-ia/card-sorting/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/information-architecture/define-ia/card-sorting/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/information-architecture/define-ia/scenario-based-testing/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/information-architecture/define-ia/scenario-based-testing/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/information-architecture/define-ia/scenario-based-testing/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/plan-content/content-planning-workshop/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/plan-content/content-planning-workshop/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/plan-content/content-planning-workshop/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/create-content/content-production-template/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/create-content/content-production-template/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/create-content/content-production-template/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/create-content/content-decision-tree/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/create-content/content-decision-tree/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/create-content/content-decision-tree/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/create-content/pair-writing/",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/create-content/pair-writing/",
       "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/create-content/pair-writing/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     },
     {
-      "label": "important-non-urgent-requests",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "label": "/content-strategy/manage-content-requests/sign-off-content/sign-off-template/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/sign-off-content/sign-off-template/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/sign-off-content/sign-off-template/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/maintain-improve-content/maintain-plan/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/maintain-improve-content/maintain-plan/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/maintain-improve-content/maintain-plan/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/manage-content-requests/maintain-improve-content/maintain-checklist/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/manage-content-requests/maintain-improve-content/maintain-checklist/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/manage-content-requests/maintain-improve-content/maintain-checklist/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/urgent-content-requests/fixed-deadlines/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/urgent-content-requests/fixed-deadlines/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/urgent-content-requests/fixed-deadlines/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/urgent-content-requests/fixed-deadlines/published-content-issues-register/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/urgent-content-requests/fixed-deadlines/published-content-issues-register/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/urgent-content-requests/fixed-deadlines/published-content-issues-register/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/urgent-content-requests/important-non-urgent-requests/",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/urgent-content-requests/important-non-urgent-requests/",
       "referenceUrl": "https://guides.service.gov.au/content-strategy/urgent-content-requests/important-non-urgent-requests/",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
       "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "/content-strategy/urgent-content-requests/prepare-urgent-request/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/content-strategy/urgent-content-requests/prepare-urgent-request/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/urgent-content-requests/prepare-urgent-request/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
     }
   ],
   "paths": {
