@@ -1,8 +1,11 @@
 # backstop-guides-tests
 Backstop visual regression tests for guides.service.gov.au
 
-Usage:
-`backstop test`
+Installation:
+`npm install -g backstopjs`
 
-Approve:
-`backstop approve`
+Reference from prod:
+`backstop reference`
+
+Testing Staging (develop):
+`backstop test`
