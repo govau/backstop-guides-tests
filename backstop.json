@@ -23,6 +23,20 @@
       "misMatchThreshold": 0.1
     },
     {
+      "label": "/ open govAU header",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au",
+      "referenceUrl": "https://guides.service.gov.au/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "clickSelector": ".headergovau__button",
+      "postInteractionWait": 500
+    },
+    {
       "label": "/digital-service-standard/",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/",
       "referenceUrl": "https://guides.service.gov.au/digital-service-standard/",
