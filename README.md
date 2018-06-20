@@ -7,5 +7,5 @@ Installation:
 Reference from prod:
 `backstop reference`
 
-Testing Staging (develop):
+Run backstop comparing Staging vs Prod:
 `backstop test`
