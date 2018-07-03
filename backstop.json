@@ -85,6 +85,18 @@
       "misMatchThreshold": 0.1
     },
     {
+      "label": "/support/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/support/",
+      "referenceUrl": "https://guides.service.gov.au/support/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
       "label": "/digital-service-standard/1-understand-user-needs/",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/digital-service-standard/1-understand-user-needs/",
       "referenceUrl": "https://guides.service.gov.au/digital-service-standard/1-understand-user-needs/",
