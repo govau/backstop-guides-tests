@@ -545,6 +545,18 @@
       "misMatchThreshold": 0.1
     },
     {
+      "label": "/404/",
+      "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/404/",
+      "referenceUrl": "https://guides.service.gov.au/404/",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1500,
+      "misMatchThreshold": 0.1
+    },
+    {
       "label": "/topics/service-design-delivery-process/alpha-stage/",
       "url": "https://guides:guides@service-manual.apps.y.cld.gov.au/topics/service-design-delivery-process/alpha-stage/",
       "referenceUrl": "https://guides.service.gov.au/topics/service-design-delivery-process/alpha-stage/",
