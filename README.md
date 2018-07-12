@@ -1,5 +1,5 @@
 # backstop-guides-tests
-Backstop visual regression tests for guides.service.gov.au
+Visual regression tests for guides.service.gov.au using [BacktopJS 3](https://garris.github.io/BackstopJS/)
 
 Installation:
 `npm install -g backstopjs`
