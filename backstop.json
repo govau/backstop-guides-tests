@@ -413,9 +413,9 @@
       "misMatchThreshold": 0.1
     },
     {
-      "label": "/content-strategy/understand-channel-ecosystem/",
-      "url": "https://service-manual.apps.y.cld.gov.au/content-strategy/understand-channel-ecosystem/",
-      "referenceUrl": "https://guides.service.gov.au/content-strategy/understand-channel-ecosystem/",
+      "label": "/content-strategy/understand-content-ecosystem/",
+      "url": "https://service-manual.apps.y.cld.gov.au/content-strategy/understand-content-ecosystem/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/understand-content-ecosystem/",
       "hideSelectors": [],
       "selectors": [
         "document"
@@ -785,9 +785,9 @@
       "misMatchThreshold": 0.1
     },
     {
-      "label": "/content-strategy/understand-channel-ecosystem/content-discovery/",
-      "url": "https://service-manual.apps.y.cld.gov.au/content-strategy/understand-channel-ecosystem/content-discovery/",
-      "referenceUrl": "https://guides.service.gov.au/content-strategy/understand-channel-ecosystem/content-discovery/",
+      "label": "/content-strategy/understand-content-ecosystem/content-discovery/",
+      "url": "https://service-manual.apps.y.cld.gov.au/content-strategy/understand-content-ecosystem/channel-discovery/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/understand-content-ecosystem/channel-discovery/",
       "hideSelectors": [],
       "selectors": [
         "document"
@@ -797,9 +797,9 @@
       "misMatchThreshold": 0.1
     },
     {
-      "label": "/content-strategy/understand-channel-ecosystem/show-content-ecosystem/",
-      "url": "https://service-manual.apps.y.cld.gov.au/content-strategy/understand-channel-ecosystem/show-content-ecosystem/",
-      "referenceUrl": "https://guides.service.gov.au/content-strategy/understand-channel-ecosystem/show-content-ecosystem/",
+      "label": "/content-strategy/understand-content-ecosystem/show-content-ecosystem/",
+      "url": "https://service-manual.apps.y.cld.gov.au/content-strategy/understand-content-ecosystem/show-content-ecosystem/",
+      "referenceUrl": "https://guides.service.gov.au/content-strategy/understand-content-ecosystem/show-content-ecosystem/",
       "hideSelectors": [],
       "selectors": [
         "document"
