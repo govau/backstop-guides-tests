@@ -23,21 +23,9 @@
       "misMatchThreshold": 0.1
     },
     {
-      "label": "search",
-      "url": "https://service-manual.apps.y.cld.gov.au/search/?q=access",
-      "referenceUrl": "https://guides.service.gov.au/search/?q=access",
-      "hideSelectors": [],
-      "selectors": [
-        "document"
-      ],
-      "readyEvent": null,
-      "delay": 1500,
-      "misMatchThreshold": 0.1
-    },
-    {
       "label": "search - two words",
-      "url": "https://service-manual.apps.y.cld.gov.au/search/?q=content+guide",
-      "referenceUrl": "https://guides.service.gov.au/search/?q=content+guide",
+      "url": "https://service-manual.apps.y.cld.gov.au/search/?q=delivery+manager",
+      "referenceUrl": "https://guides.service.gov.au/search/?q=delivery+manager",
       "hideSelectors": [],
       "selectors": [
         "document"
